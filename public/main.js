@@ -12,6 +12,11 @@ var iceServers = {
     { urls: "stun:stun.services.mozilla.com" },
     { urls: "stun:stun.l.google.com:19302" },
     { urls: "stun:stun2.l.google.com:19305" },
+    {
+      urls: "turn:numb.viagenie.ca",
+      username: "sultan1640@gmail.com",
+      credential: "98376683",
+    },
   ],
 };
 

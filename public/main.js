@@ -34,9 +34,9 @@ var iceServers = {
     //   username: "webrtc",
     // },
 
-    { urls: "stun:stun.iboring.xyz:5349" },
+    { urls: "stun:stun.iboring.xyz:3478" },
     {
-      url: "turn:turn.iboring.xyz:5349",
+      url: "turn:turn.iboring.xyz:3478",
       username: "yousuf",
       credential: "yousuf",
     },

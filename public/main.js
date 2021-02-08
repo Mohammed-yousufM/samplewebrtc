@@ -34,11 +34,11 @@ var iceServers = {
     //   username: "webrtc",
     // },
 
-    { urls: "stun:stun.iboring.xyz:5349" },
+    { urls: "stun:stun.stunprotocol.org" },
     {
-      urls: "turn:turn.iboring.xyz:5349",
-      credential: "yousuf",
-      username: "yousuf",
+      urls: "turn:numb.viagenie.ca",
+      credential: "muazkh",
+      username: "webrtc@live.com",
     },
   ],
 };
@@ -163,3 +163,12 @@ function onIceCandidate(event) {
     });
   }
 }
+
+/*Project - TOGETHER :status
+
+-Create User Screen : completed with both UI & functionality(API calls)
+-List of Events Screen : completed with UI, pending integration of API calls
+-Signup screens(3) : completed with UI, pending integration of API calls
+-Main Video streaming screen : pending functionality
+-working on UI & API calls for login, reserve box, add participants and payment screen
+*/

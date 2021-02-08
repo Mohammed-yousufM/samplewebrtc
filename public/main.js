@@ -36,7 +36,7 @@ var iceServers = {
 
     { urls: "stun:stun.iboring.xyz:5349" },
     {
-      url: "turn:turn.iboring.xyz:5349",
+      urls: "turn:turn.iboring.xyz:5349",
       credential: "yousuf",
       username: "yousuf",
     },

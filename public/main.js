@@ -34,11 +34,11 @@ var iceServers = {
     //   username: "webrtc",
     // },
 
-    { urls: "stun:stun.iboring.xyz:3478" },
+    { urls: "stun:stun.iboring.xyz:5349" },
     {
-      urls: "turn:turn.iboring.xyz:3478",
-      username: "yousuf",
+      url: "turn:turn.iboring.xyz:5349",
       credential: "yousuf",
+      username: "yousuf",
     },
   ],
 };

@@ -8,39 +8,6 @@ var remoteVideo = document.getElementById("remoteVideo");
 var roomNumber, localStream, remoteStream, rtcPeerConnection, isCaller;
 
 var iceServers = {
-  // iceServers: [
-  // { urls: "stun:stun.services.mozilla.com" },
-  // { urls: "stun:stun.l.google.com:19302" },
-  // { urls: "stun:stun2.l.google.com:19305" },
-  // { urls: "stun:relay.backups.cz" },
-  // {
-  //   urls: "stun:numb.viagenie.ca",
-  //   username: "sultan1640@gmail.com",
-  //   credential: "98376683",
-  // },
-  // {
-  //   urls: "turn:numb.viagenie.ca",
-  //   username: "sultan1640@gmail.com",
-  //   credential: "98376683",
-  // },
-  // {
-  //   url: "turn:relay.backups.cz",
-  //   credential: "webrtc",
-  //   username: "webrtc",
-  // },
-  // {
-  //   url: "turn:relay.backups.cz?transport=tcp",
-  //   credential: "webrtc",
-  //   username: "webrtc",
-  // },
-
-  //   { urls: "stun:stun.stunprotocol.org" },
-  //   {
-  //     urls: "turn:numb.viagenie.ca",
-  //     credential: "muazkh",
-  //     username: "webrtc@live.com",
-  //   },
-  // ],
   iceServers: [
     { urls: ["stun:numb.viagenie.ca"], username: "", credential: "" },
     {

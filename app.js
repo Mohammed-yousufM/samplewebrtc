@@ -91,6 +91,7 @@ app.get("/video/token", (req, res) => {
   sendTokenResponse(token, res);
 });
 
+//actual api firing
 app.post("/video", (req, res) => {
   const identity = req.body.identity;
   const room = req.body.room;

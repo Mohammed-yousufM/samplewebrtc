@@ -8,8 +8,8 @@
 
 module.exports = {
   twilio: {
-    accountSid: "ACd22d3304b805899a66a33311760b68bd",
-    apiKey: "SKbfb0302356aede49b09801ba35159723",
-    apiSecret: "RMPauEw8Yi2EGC7Iu4GUEfMneifx66Np",
+    accountSid: "AC33026c59955b55946a23d1ec64a78255",
+    apiKey: "SKf3aa3b98ea5ef9426a4b85856a280ddb",
+    apiSecret: "KaBYMiMMJcVYEm7zFvEDDk4SnPAA1xmW",
   },
 };
